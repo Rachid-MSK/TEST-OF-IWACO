@@ -79,56 +79,58 @@ se limite à une seule direction (horizontale ou verticale).
  ## =>php:
 
 ## 1- 
-<?php
+#### <?php
  
-for( $i=1; $i<=100; $i++ )
-{
-    if($i%3==0 && $i%5==0){
-    echo "DevOps\n";
-    }
+#### for( $i=1; $i<=100; $i++ )
+####{
+    #### if($i%3==0 && $i%5==0){
+    #### echo "DevOps\n";
+    #### }
 
-    elseif($i%3==0){
-        echo "Dev\n";
-    }
+    #### elseif($i%3==0){
+        #### echo "Dev\n";
+    #### }
     
-    elseif ($i%5==0) {
-        echo "Ops\n";
-    }
+    #### elseif ($i%5==0) {
+        #### echo "Ops\n";
+    #### }
     
-    else{
-    echo $i."\n";
-    }
-}
+    #### else{
+    #### echo $i."\n";
+    #### }
+#### }
 
 
-?>
+#### ?>
 
 
-## 2- 
-<?php
-// fonction qui vérifie si paramètre est en fait un nombre premier
-function IsPrime($n)
-{
- for($x=2; $x<$n; $x++)
-   {
-      if($n %$x ==0)
-	      {
-		   return 0;
-		  }
-    }
-  return 1;
-   }
-echo isPrime(73) ? 'Prime' : 'Composite';
-?>
+## 2-
+	
+#### <?php
+#### // fonction qui vérifie si paramètre est en fait un nombre premier
+#### function IsPrime($n)
+#### {
+ #### for($x=2; $x<$n; $x++)
+   #### {
+      #### if($n %$x ==0)
+	   ####   {
+		####   return 0;
+		  #### }
+    #### }
+  #### return 1;
+   #### }
+#### echo isPrime(73) ? 'Prime' : 'Composite';
+#### ?>
 
 ### 3-
-une loop pour afficher les valeurs de l'array, à condition de: si item est sup ou égale à 0 on va l'afficher,
-sinon on va afficher le power de l'item. output est comme suit: [0] => 3
-    [1] => 8
-    [2] => 16
-    [3] => 0
-    [4] => 2
-    [5] => 81
+	
+#### une loop pour afficher les valeurs de l'array, à condition de: si item est sup ou égale à 0 on va l'afficher,
+#### sinon on va afficher le power de l'item. output est comme suit: [0] => 3
+    #### [1] => 8
+    #### [2] => 16
+    #### [3] => 0
+    #### [4] => 2
+    #### [5] => 81
 
 ## =>database:
 
