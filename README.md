@@ -69,7 +69,7 @@ se limite à une seule direction (horizontale ou verticale).
 
 
 
--avantages de 'flex': permet à un développeur d'incorporer des colonnes de type tableau dans
+-avantages de 'float': permet à un développeur d'incorporer des colonnes de type tableau dans
  une mise en page HTML sans utiliser de tableaux.
 -Inconvinients de 'float': Tout flotter peut créer beaucoup d'incohérences,
  selon la largeur d'un écran et la hauteur de certains éléments rendus,
