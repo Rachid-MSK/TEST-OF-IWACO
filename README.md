@@ -110,16 +110,16 @@ se limite à une seule direction (horizontale ou verticale).
 #### // fonction qui vérifie si paramètre est en fait un nombre premier
 #### function IsPrime($n)
 #### {
- #### for($x=2; $x<$n; $x++)
-   #### {
-      #### if($n %$x ==0)
-	   ####   {
-		####   return 0;
-		  #### }
-    #### }
-  #### return 1;
-   #### }
-#### echo isPrime(73) ? 'Prime' : 'Composite';
+   for($x=2; $x<$n; $x++)
+     {
+        if($n %$x ==0)
+	       {
+		    return 0;
+		    }
+      }
+    return 1;
+     }
+  echo isPrime(73) ? 'Prime' : 'Composite';
 #### ?>
 
 ### 3-
