@@ -160,7 +160,7 @@ select first_name, last_name, MIN(salary) from employee;
 select first_name, last_name, MIN(salary) from employee
 where salary > 10000 ;
   
-  ## Partie 3: pardon le fichier xd ne veut pas afficher, car j'ai pas le lecteur de fichier xd sur mon pc
+  ## Partie 3: pour la partie WEB: pardon le fichier xd ne veut pas m'afficher, car j'ai pas le lecteur de fichier xd sur mon pc, je suis vraiment désoler
 
 
 
