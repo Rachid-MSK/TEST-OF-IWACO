@@ -25,7 +25,7 @@
  sont des solutions éprouvées à des problèmes récurrents de design ou de code.
  Utile au designer et au développeur, le design pattern améliore aussi l’utilisabilité du site ou de l’application.
  Ces « patrons de conception », réutilisables, rendent l’interface plus intuitive pour l’utilisateur.
-###5- La commande Diff est utilisée dans git pour suivre la différence entre les modifications apportées sur un fichier.
+### 5- La commande Diff est utilisée dans git pour suivre la différence entre les modifications apportées sur un fichier.
 
 ## =>Javascript
 
