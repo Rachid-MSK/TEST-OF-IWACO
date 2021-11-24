@@ -84,21 +84,21 @@ se limite à une seule direction (horizontale ou verticale).
 #### for( $i=1; $i<=100; $i++ )
 #### {
        if($i%3==0 && $i%5==0){
-    #### echo "DevOps\n";
-    #### }
+     echo "DevOps\n";
+      }
 
-    #### elseif($i%3==0){
-        #### echo "Dev\n";
-    #### }
+      elseif($i%3==0){
+          echo "Dev\n";
+      }
     
-    #### elseif ($i%5==0) {
-        #### echo "Ops\n";
-    #### }
+      elseif ($i%5==0) {
+          echo "Ops\n";
+      }
     
-    #### else{
-    #### echo $i."\n";
-    #### }
-#### }
+      else{
+      echo $i."\n";
+      }
+ ### }
 
 
 #### ?>
